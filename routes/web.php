@@ -33,10 +33,11 @@ Route::prefix('admin')->group(function () {
 Route::prefix('admin')->group(function () {
 
     Route::middleware(['guest'])->group(function () {
-        Route::get('/login', [LoginController::class, 'index'])->name('login');
+        Route::get('login', [LoginController::class, 'index'])->name('login');
         Route::post('admin-login', [LoginController::class, 'authenticate'])->name('admin.login');
     });
-
+    
+    Route::get('admin-logout', [LoginController::class, 'logout'])->name('admin.logout');
 
 
 

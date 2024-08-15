@@ -75,7 +75,7 @@
                         <a class="dropdown-item" href="account-setting"><i
                                 class="bi bi-gear text-muted fs-15 align-middle me-1"></i> <span
                                 class="align-middle">Settings</span></a>
-                        <a class="dropdown-item" href="#"><i
+                        <a class="dropdown-item" href="{{route('admin.logout')}}"><i
                                 class="bi bi-box-arrow-right text-muted fs-15 align-middle me-1"></i> <span
                                 class="align-middle" data-key="t-logout">Logout</span></a>
                     </div>
