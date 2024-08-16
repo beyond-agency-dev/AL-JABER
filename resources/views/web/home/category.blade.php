@@ -19,80 +19,147 @@
     </div><!--end container-->
 </section>
 <!--end container-->
-</section>
+
 <section>
     <div class="container">
         <br>
         <div class="row gx-0 gy-0 justify-content-center">
-            <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+            <div class="col-lg-1 col-md-2 col-sm-3 col-4">
                 <div class="text-center mb-2">
-                    <img src="../assets/images/products/img-6.png" alt="" class="img-fluid rounded-circle bg-warning-subtle border border-2 border-warning border-opacity-10 p-2" style="width: 80px; height: 80px;">
-                    <div class="mt-2">
+                    <img src="../assets/images/products/img-6.png" alt="" class="img-fluid rounded-circle bg-warning-subtle border border-2 border-warning border-opacity-10 p-1" style="width: 60px; height: 60px;">
+                    <div class="mt-1">
                         <a href="#!">
-                            <h5 class="mb-1 fs-15">Clothes</h5>
+                            <h5 class="mb-1 fs-14">Clothes</h5>
                         </a>
-
                     </div>
                 </div>
             </div><!--end col-->
-            <div class="col-lg-2 col-md-3 col-sm-4 col-6">
-                <div class="text-center mb-2">
-                    <img src="../assets/images/products/img-20.png" alt="" class="img-fluid rounded-circle bg-dark-subtle border border-2 border-dark border-opacity-10 p-2" style="width: 80px; height: 80px;">
-                    <div class="mt-2">
-                        <a href="#!">
-                            <h5 class="mb-1 fs-15">Electronics</h5>
-                        </a>
 
+            <div class="col-lg-1 col-md-2 col-sm-3 col-4">
+                <div class="text-center mb-2">
+                    <img src="../assets/images/products/img-20.png" alt="" class="img-fluid rounded-circle bg-dark-subtle border border-2 border-dark border-opacity-10 p-1" style="width: 60px; height: 60px;">
+                    <div class="mt-1">
+                        <a href="#!">
+                            <h5 class="mb-1 fs-14">Electronics</h5>
+                        </a>
                     </div>
                 </div>
             </div><!--end col-->
-            <div class="col-lg-2 col-md-3 col-sm-4 col-6">
-                <div class="text-center mb-2">
-                    <img src="../assets/images/products/img-18.png" alt="" class="img-fluid rounded-circle bg-warning-subtle border border-2 border-warning border-opacity-10 p-2" style="width: 80px; height: 80px;">
-                    <div class="mt-2">
-                        <a href="#!">
-                            <h5 class="mb-1 fs-15">Cosmetic</h5>
-                        </a>
 
+            <div class="col-lg-1 col-md-2 col-sm-3 col-4">
+                <div class="text-center mb-2">
+                    <img src="../assets/images/products/img-18.png" alt="" class="img-fluid rounded-circle bg-warning-subtle border border-2 border-warning border-opacity-10 p-1" style="width: 60px; height: 60px;">
+                    <div class="mt-1">
+                        <a href="#!">
+                            <h5 class="mb-1 fs-14">Cosmetic</h5>
+                        </a>
                     </div>
                 </div>
             </div><!--end col-->
-            <div class="col-lg-2 col-md-3 col-sm-4 col-6">
-                <div class="text-center mb-2">
-                    <img src="../assets/images/products/img-1.png" alt="" class="img-fluid rounded-circle bg-danger-subtle border border-2 border-danger border-opacity-10 p-2" style="width: 80px; height: 80px;">
-                    <div class="mt-2">
-                        <a href="#!">
-                            <h5 class="mb-1 fs-15">Bags</h5>
-                        </a>
 
+            <div class="col-lg-1 col-md-2 col-sm-3 col-4">
+                <div class="text-center mb-2">
+                    <img src="../assets/images/products/img-1.png" alt="" class="img-fluid rounded-circle bg-danger-subtle border border-2 border-danger border-opacity-10 p-1" style="width: 60px; height: 60px;">
+                    <div class="mt-1">
+                        <a href="#!">
+                            <h5 class="mb-1 fs-14">Bags</h5>
+                        </a>
                     </div>
                 </div>
             </div><!--end col-->
-            <div class="col-lg-2 col-md-3 col-sm-4 col-6">
-                <div class="text-center mb-2">
-                    <img src="../assets/images/products/img-15.png" alt="" class="img-fluid rounded-circle bg-info-subtle border border-2 border-info border-opacity-10 p-2" style="width: 80px; height: 80px;">
-                    <div class="mt-2">
-                        <a href="#!">
-                            <h5 class="mb-1 fs-15">Handbags & Clutches</h5>
-                        </a>
 
+            <div class="col-lg-1 col-md-2 col-sm-3 col-4">
+                <div class="text-center mb-2">
+                    <img src="../assets/images/products/img-15.png" alt="" class="img-fluid rounded-circle bg-info-subtle border border-2 border-info border-opacity-10 p-1" style="width: 60px; height: 60px;">
+                    <div class="mt-1">
+                        <a href="#!">
+                            <h5 class="mb-1 fs-14">Handbags & Clutches</h5>
+                        </a>
                     </div>
                 </div>
             </div><!--end col-->
-            <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+
+            <div class="col-lg-1 col-md-2 col-sm-3 col-4">
                 <div class="text-center mb-2">
-                    <img src="../assets/images/products/img-5.png" alt="" class="img-fluid rounded-circle bg-danger-subtle border border-2 border-danger border-opacity-10 p-2" style="width: 80px; height: 80px;">
-                    <div class="mt-2">
+                    <img src="../assets/images/products/img-5.png" alt="" class="img-fluid rounded-circle bg-danger-subtle border border-2 border-danger border-opacity-10 p-1" style="width: 60px; height: 60px;">
+                    <div class="mt-1">
                         <a href="#!">
-                            <h5 class="mb-1 fs-15">Footwear</h5>
+                            <h5 class="mb-1 fs-14">Footwear</h5>
                         </a>
-                        <
+                    </div>
+                </div>
+            </div><!--end col-->
+
+            <!-- New cards -->
+            <div class="col-lg-1 col-md-2 col-sm-3 col-4">
+                <div class="text-center mb-2">
+                    <img src="../assets/images/products/img-7.png" alt="" class="img-fluid rounded-circle bg-primary-subtle border border-2 border-primary border-opacity-10 p-1" style="width: 60px; height: 60px;">
+                    <div class="mt-1">
+                        <a href="#!">
+                            <h5 class="mb-1 fs-14">Accessories</h5>
+                        </a>
+                    </div>
+                </div>
+            </div><!--end col-->
+
+            <div class="col-lg-1 col-md-2 col-sm-3 col-4">
+                <div class="text-center mb-2">
+                    <img src="../assets/images/products/img-8.png" alt="" class="img-fluid rounded-circle bg-secondary-subtle border border-2 border-secondary border-opacity-10 p-1" style="width: 60px; height: 60px;">
+                    <div class="mt-1">
+                        <a href="#!">
+                            <h5 class="mb-1 fs-14">Jewelry</h5>
+                        </a>
+                    </div>
+                </div>
+            </div><!--end col-->
+
+            <div class="col-lg-1 col-md-2 col-sm-3 col-4">
+                <div class="text-center mb-2">
+                    <img src="../assets/images/products/img-9.png" alt="" class="img-fluid rounded-circle bg-success-subtle border border-2 border-success border-opacity-10 p-1" style="width: 60px; height: 60px;">
+                    <div class="mt-1">
+                        <a href="#!">
+                            <h5 class="mb-1 fs-14">Watches</h5>
+                        </a>
+                    </div>
+                </div>
+            </div><!--end col-->
+
+            <div class="col-lg-1 col-md-2 col-sm-3 col-4">
+                <div class="text-center mb-2">
+                    <img src="../assets/images/products/img-10.png" alt="" class="img-fluid rounded-circle bg-warning-subtle border border-2 border-warning border-opacity-10 p-1" style="width: 60px; height: 60px;">
+                    <div class="mt-1">
+                        <a href="#!">
+                            <h5 class="mb-1 fs-14">Sunglasses</h5>
+                        </a>
+                    </div>
+                </div>
+            </div><!--end col-->
+
+            <div class="col-lg-1 col-md-2 col-sm-3 col-4">
+                <div class="text-center mb-2">
+                    <img src="../assets/images/products/img-11.png" alt="" class="img-fluid rounded-circle bg-light-subtle border border-2 border-light border-opacity-10 p-1" style="width: 60px; height: 60px;">
+                    <div class="mt-1">
+                        <a href="#!">
+                            <h5 class="mb-1 fs-14">Hats</h5>
+                        </a>
+                    </div>
+                </div>
+            </div><!--end col-->
+
+            <div class="col-lg-1 col-md-2 col-sm-3 col-4">
+                <div class="text-center mb-2">
+                    <img src="../assets/images/products/img-12.png" alt="" class="img-fluid rounded-circle bg-info-subtle border border-2 border-info border-opacity-10 p-1" style="width: 60px; height: 60px;">
+                    <div class="mt-1">
+                        <a href="#!">
+                            <h5 class="mb-1 fs-14">Scarves</h5>
+                        </a>
                     </div>
                 </div>
             </div><!--end col-->
         </div><!--end row-->
     </div><!--end container-->
 </section>
+
 
 <section>
     <div class="container mt-5">
