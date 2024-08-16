@@ -6,6 +6,16 @@
     <!-- Cards Row -->
     <div class="container-fluid mt-4" style="max-width: 1200px;">
         <div class="row g-3 justify-content-center">
+            <div class="col-xl-2">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="d-flex position-relative">
+                            <img src="../assets/images/users/avatar-3.jpg" class="flex-shrink-0 me-3 avatar-xl " alt="..." />
+
+                        </div>
+                    </div>
+                </div>
+            </div>
             <!-- Card 1 -->
             <div class="col-md-3 col-lg-2">
                 <div class="card bg-primary-subtle border-0 mb-0 text-center">
