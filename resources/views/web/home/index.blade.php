@@ -8,15 +8,15 @@
         <div class="row g-3 justify-content-center">
             <!-- Card 1 -->
             <div class="col-md-3 col-lg-2">
-                <div class="card bg-success-subtle border-0 mb-0 text-center">
+                <div class="card bg-primary-subtle border-0 mb-0 text-center">
                     <div class="card-body">
-                        <div class="avatar-sm mx-auto">
-                            <div class="avatar-title bg-success bg-opacity-10 text-success rounded fs-22">
-                                <i class="bi bi-truck"></i>
+                        <div class="avatar-lg mx-auto">
+                            <div class="text-primary fs-22">
+                                <img src="{{ asset('assets/images/products/img-35.jpg') }}" alt="" class="img-fluid rounded-circle bg-warning-subtle " style="width: 100px; height: 80px;">
                             </div>
                         </div>
                         <div class="flex-grow-1">
-                            <h6 class="fs-16 mt-2">Complete Stock</h6>
+                            <h6 class="fs-16 mt-2">Macines</h6>
                         </div>
                     </div>
                 </div>
@@ -26,13 +26,13 @@
             <div class="col-md-3 col-lg-2">
                 <div class="card bg-primary-subtle border-0 mb-0 text-center">
                     <div class="card-body">
-                        <div class="avatar-sm mx-auto">
-                            <div class="avatar-title bg-primary bg-opacity-10 text-primary rounded fs-22">
-                                <i class="bi bi-cash-coin"></i>
+                        <div class="avatar-lg mx-auto">
+                            <div class="text-primary fs-22">
+                                <img src="{{ asset('assets/images/products/img-35.jpg') }}" alt="" class="img-fluid rounded-circle bg-warning-subtle " style="width: 100px; height: 80px;">
                             </div>
                         </div>
                         <div class="flex-grow-1">
-                            <h6 class="fs-16 mt-2">Payment Security</h6>
+                            <h6 class="fs-16 mt-2">Macines</h6>
                         </div>
                     </div>
                 </div>
@@ -40,63 +40,57 @@
 
             <!-- Card 3 -->
             <div class="col-md-3 col-lg-2">
-                <div class="card bg-danger-subtle border-0 mb-0 text-center">
+                <div class="card bg-primary-subtle border-0 mb-0 text-center">
                     <div class="card-body">
-                        <div class="avatar-sm mx-auto">
-                            <div class="avatar-title bg-danger bg-opacity-10 text-danger rounded fs-22">
-                                <i class="bi bi-shield-check"></i>
+                        <div class="avatar-lg mx-auto">
+                            <div class="text-primary fs-22">
+                                <img src="{{ asset('assets/images/products/img-35.jpg') }}" alt="" class="img-fluid rounded-circle bg-warning-subtle " style="width: 100px; height: 80px;">
                             </div>
                         </div>
                         <div class="flex-grow-1">
-                            <h6 class="fs-16 mt-2">Products Quality</h6>
+                            <h6 class="fs-16 mt-2">Cars</h6>
                         </div>
                     </div>
                 </div>
             </div><!--end col-->
-
-            <!-- Card 4 -->
-            <div class="col-md-3 col-lg-2">
-                <div class="card bg-secondary-subtle border-0 mb-0 text-center">
-                    <div class="card-body">
-                        <div class="avatar-sm mx-auto">
-                            <div class="avatar-title bg-secondary bg-opacity-10 text-secondary rounded fs-22">
-                                <i class="bi bi-clock-history"></i>
-                            </div>
-                        </div>
-                        <div class="flex-grow-1">
-                            <h6 class="fs-16 mt-2">24/7 Support</h6>
-                        </div>
-                    </div>
-                </div>
-            </div><!--end col-->
-
-            <!-- Card 5 -->
-            <div class="col-md-3 col-lg-2">
-                <div class="card bg-success-subtle border-0 mb-0 text-center">
-                    <div class="card-body">
-                        <div class="avatar-sm mx-auto">
-                            <div class="avatar-title bg-success bg-opacity-10 text-success rounded fs-22">
-                                <i class="bi bi-truck"></i>
-                            </div>
-                        </div>
-                        <div class="flex-grow-1">
-                            <h6 class="fs-16 mt-2">Complete Stock</h6>
-                        </div>
-                    </div>
-                </div>
-            </div><!--end col-->
-
-            <!-- Card 6 -->
             <div class="col-md-3 col-lg-2">
                 <div class="card bg-primary-subtle border-0 mb-0 text-center">
                     <div class="card-body">
-                        <div class="avatar-sm mx-auto">
-                            <div class="avatar-title bg-primary bg-opacity-10 text-primary rounded fs-22">
-                                <i class="bi bi-cash-coin"></i>
+                        <div class="avatar-lg mx-auto">
+                            <div class="text-primary fs-22">
+                                <img src="{{ asset('assets/images/products/img-35.jpg') }}" alt="" class="img-fluid rounded-circle bg-warning-subtle " style="width: 100px; height: 80px;">
                             </div>
                         </div>
                         <div class="flex-grow-1">
-                            <h6 class="fs-16 mt-2">Payment Security</h6>
+                            <h6 class="fs-16 mt-2">Cars</h6>
+                        </div>
+                    </div>
+                </div>
+            </div><!--end col-->
+            <div class="col-md-3 col-lg-2">
+                <div class="card bg-primary-subtle border-0 mb-0 text-center">
+                    <div class="card-body">
+                        <div class="avatar-lg mx-auto">
+                            <div class="text-primary fs-22">
+                                <img src="{{ asset('assets/images/products/img-35.jpg') }}" alt="" class="img-fluid rounded-circle bg-warning-subtle " style="width: 100px; height: 80px;">
+                            </div>
+                        </div>
+                        <div class="flex-grow-1">
+                            <h6 class="fs-16 mt-2">Tools</h6>
+                        </div>
+                    </div>
+                </div>
+            </div><!--end col-->
+            <div class="col-md-3 col-lg-2">
+                <div class="card bg-primary-subtle border-0 mb-0 text-center">
+                    <div class="card-body">
+                        <div class="avatar-lg mx-auto">
+                            <div class="text-primary fs-22">
+                                <img src="{{ asset('assets/images/products/img-35.jpg') }}" alt="" class="img-fluid rounded-circle bg-warning-subtle " style="width: 100px; height: 80px;">
+                            </div>
+                        </div>
+                        <div class="flex-grow-1">
+                            <h6 class="fs-16 mt-2">Tools</h6>
                         </div>
                     </div>
                 </div>
@@ -108,95 +102,85 @@
         <div class="row g-3 justify-content-center">
             <!-- Card 1 -->
             <div class="col-md-3 col-lg-2">
-                <div class="card bg-success-subtle border-0 mb-0 text-center">
+                <div class="card bg-primary-subtle border-0 mb-0 text-center">
                     <div class="card-body">
-                        <div class="avatar-sm mx-auto">
-                            <div class="avatar-title bg-success bg-opacity-10 text-success rounded fs-22">
-                                <i class="bi bi-truck"></i>
+                        <div class="avatar-lg mx-auto">
+                            <div class="text-primary fs-22">
+                                <img src="{{ asset('assets/images/products/img-35.jpg') }}" alt="" class="img-fluid rounded-circle bg-warning-subtle " style="width: 100px; height: 80px;">
                             </div>
                         </div>
                         <div class="flex-grow-1">
-                            <h6 class="fs-16 mt-2">Complete Stock</h6>
+                            <h6 class="fs-16 mt-2">Trucks</h6>
                         </div>
                     </div>
                 </div>
             </div><!--end col-->
-
-            <!-- Card 2 -->
             <div class="col-md-3 col-lg-2">
                 <div class="card bg-primary-subtle border-0 mb-0 text-center">
                     <div class="card-body">
-                        <div class="avatar-sm mx-auto">
-                            <div class="avatar-title bg-primary bg-opacity-10 text-primary rounded fs-22">
-                                <i class="bi bi-cash-coin"></i>
+                        <div class="avatar-lg mx-auto">
+                            <div class="text-primary fs-22">
+                                <img src="{{ asset('assets/images/products/img-35.jpg') }}" alt="" class="img-fluid rounded-circle bg-warning-subtle " style="width: 100px; height: 80px;">
                             </div>
                         </div>
                         <div class="flex-grow-1">
-                            <h6 class="fs-16 mt-2">Payment Security</h6>
+                            <h6 class="fs-16 mt-2">Trucks</h6>
                         </div>
                     </div>
                 </div>
             </div><!--end col-->
-
-            <!-- Card 3 -->
-            <div class="col-md-3 col-lg-2">
-                <div class="card bg-danger-subtle border-0 mb-0 text-center">
-                    <div class="card-body">
-                        <div class="avatar-sm mx-auto">
-                            <div class="avatar-title bg-danger bg-opacity-10 text-danger rounded fs-22">
-                                <i class="bi bi-shield-check"></i>
-                            </div>
-                        </div>
-                        <div class="flex-grow-1">
-                            <h6 class="fs-16 mt-2">Products Quality</h6>
-                        </div>
-                    </div>
-                </div>
-            </div><!--end col-->
-
-            <!-- Card 4 -->
-            <div class="col-md-3 col-lg-2">
-                <div class="card bg-secondary-subtle border-0 mb-0 text-center">
-                    <div class="card-body">
-                        <div class="avatar-sm mx-auto">
-                            <div class="avatar-title bg-secondary bg-opacity-10 text-secondary rounded fs-22">
-                                <i class="bi bi-clock-history"></i>
-                            </div>
-                        </div>
-                        <div class="flex-grow-1">
-                            <h6 class="fs-16 mt-2">24/7 Support</h6>
-                        </div>
-                    </div>
-                </div>
-            </div><!--end col-->
-
-            <!-- Card 5 -->
-            <div class="col-md-3 col-lg-2">
-                <div class="card bg-success-subtle border-0 mb-0 text-center">
-                    <div class="card-body">
-                        <div class="avatar-sm mx-auto">
-                            <div class="avatar-title bg-success bg-opacity-10 text-success rounded fs-22">
-                                <i class="bi bi-truck"></i>
-                            </div>
-                        </div>
-                        <div class="flex-grow-1">
-                            <h6 class="fs-16 mt-2">Complete Stock</h6>
-                        </div>
-                    </div>
-                </div>
-            </div><!--end col-->
-
-            <!-- Card 6 -->
             <div class="col-md-3 col-lg-2">
                 <div class="card bg-primary-subtle border-0 mb-0 text-center">
                     <div class="card-body">
-                        <div class="avatar-sm mx-auto">
-                            <div class="avatar-title bg-primary bg-opacity-10 text-primary rounded fs-22">
-                                <i class="bi bi-cash-coin"></i>
+                        <div class="avatar-lg mx-auto">
+                            <div class="text-primary fs-22">
+                                <img src="{{ asset('assets/images/products/img-35.jpg') }}" alt="" class="img-fluid rounded-circle bg-warning-subtle " style="width: 100px; height: 80px;">
                             </div>
                         </div>
                         <div class="flex-grow-1">
-                            <h6 class="fs-16 mt-2">Payment Security</h6>
+                            <h6 class="fs-16 mt-2">Vans</h6>
+                        </div>
+                    </div>
+                </div>
+            </div><!--end col-->
+            <div class="col-md-3 col-lg-2">
+                <div class="card bg-primary-subtle border-0 mb-0 text-center">
+                    <div class="card-body">
+                        <div class="avatar-lg mx-auto">
+                            <div class="text-primary fs-22">
+                                <img src="{{ asset('assets/images/products/img-35.jpg') }}" alt="" class="img-fluid rounded-circle bg-warning-subtle " style="width: 100px; height: 80px;">
+                            </div>
+                        </div>
+                        <div class="flex-grow-1">
+                            <h6 class="fs-16 mt-2">Vans</h6>
+                        </div>
+                    </div>
+                </div>
+            </div><!--end col-->
+            <div class="col-md-3 col-lg-2">
+                <div class="card bg-primary-subtle border-0 mb-0 text-center">
+                    <div class="card-body">
+                        <div class="avatar-lg mx-auto">
+                            <div class="text-primary fs-22">
+                                <img src="{{ asset('assets/images/products/img-35.jpg') }}" alt="" class="img-fluid rounded-circle bg-warning-subtle " style="width: 100px; height: 80px;">
+                            </div>
+                        </div>
+                        <div class="flex-grow-1">
+                            <h6 class="fs-16 mt-2">Parts</h6>
+                        </div>
+                    </div>
+                </div>
+            </div><!--end col-->
+            <div class="col-md-3 col-lg-2">
+                <div class="card bg-primary-subtle border-0 mb-0 text-center">
+                    <div class="card-body">
+                        <div class="avatar-lg mx-auto">
+                            <div class="text-primary fs-22">
+                                <img src="{{ asset('assets/images/products/img-35.jpg') }}" alt="" class="img-fluid rounded-circle bg-warning-subtle " style="width: 100px; height: 80px;">
+                            </div>
+                        </div>
+                        <div class="flex-grow-1">
+                            <h6 class="fs-16 mt-2">Parts</h6>
                         </div>
                     </div>
                 </div>
