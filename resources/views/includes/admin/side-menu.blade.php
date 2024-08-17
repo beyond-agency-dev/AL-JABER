@@ -29,13 +29,41 @@
             <div id="two-column-menu">
             </div>
             <ul class="navbar-nav" id="navbar-nav">
-                <li class="menu-title"><i class="ri-more-fill"></i> <span data-key="t-components">Components</span></li>
+                <li class="menu-title"><i class="ri-more-fill"></i> <span data-key="t-components">Home</span></li>
 
                 <li class="nav-item">
-                    <a class="nav-link menu-link" href="index">
-                        <i class="bi bi-command"></i> <span data-key="t-overview">Overview</span>
+                    <a class="nav-link menu-link" href="{{ route('admin.dashboard') }}">
+                        <i class="bi bi-house"></i> <span data-key="t-overview">Dashboard</span>
                     </a>
                 </li>
+
+                <li class="menu-title"><i class="ri-more-fill"></i> <span data-key="t-components">Items</span></li>
+
+                <li class="nav-item">
+                    <a class="nav-link menu-link" href="#products" data-bs-toggle="collapse" role="button"
+                        aria-expanded="false" aria-controls="products">
+                        <i class="bi bi-box"></i> <span data-key="t-custom-ui">Products</span>
+                    </a>
+                    <div class="collapse menu-dropdown" id="products">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <ul class="nav nav-sm flex-column">
+                                    <li class="nav-item">
+                                        <a href="{{ route('products.create') }}" class="nav-link"><span
+                                                data-key="t-ribbons">Add
+                                                Product</span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="{{ route('products.index') }}" class="nav-link"><span
+                                                data-key="t-profile">List
+                                                Product</span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
                 <li class="nav-item">
                     <a class="nav-link menu-link" href="#customUI" data-bs-toggle="collapse" role="button"
                         aria-expanded="false" aria-controls="customUI">

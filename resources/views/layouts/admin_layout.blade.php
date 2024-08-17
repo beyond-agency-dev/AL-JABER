@@ -30,11 +30,14 @@
         <!-- Start right Content here -->
         <!-- ============================================================== -->
         <div class="main-content">
-            @yield('content')
-            <!-- End Page-content -->
-
-            <!-- footer -->
-            @include('includes.admin.footer')
+            <div class="page-content">
+                <div class="container-fluid">
+                    @yield('content')
+                    <!-- End Page-content -->
+                    <!-- footer -->
+                    @include('includes.admin.footer')
+                </div>
+            </div>
         </div>
         <!-- end main content-->
 
