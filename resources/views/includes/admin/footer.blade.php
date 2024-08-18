@@ -4,11 +4,11 @@
             <div class="col-sm-6">
                 <script>
                     document.write(new Date().getFullYear())
-                </script> © Toner.
+                </script> © Beyond Agency.
             </div>
             <div class="col-sm-6">
                 <div class="text-sm-end d-none d-sm-block">
-                    Design & Develop by Themesbrand
+                    Design & Develop by Beyond Agency
                 </div>
             </div>
         </div>

@@ -6,6 +6,7 @@ use Illuminate\Support\Facades\Route;
 
 //admin
 use App\Http\Controllers\admin\DashboardController;
+use App\Http\Controllers\admin\ProductController;
 
 /*
 |--------------------------------------------------------------------------
@@ -23,12 +24,6 @@ Route::get('/category', [FrontendController::class, 'view'])->name('category');
 Route::get('/product-info', [FrontendController::class, 'info'])->name('product.info');
 
 //admin
-Route::prefix('admin')->group(function () {
-    Route::controller(DashboardController::class)->group(function () {
-        Route::get('/', 'dashboard')->name('admin.dashboard');
-    });
-});
-
 
 Route::prefix('admin')->group(function () {
 
@@ -36,12 +31,12 @@ Route::prefix('admin')->group(function () {
         Route::get('login', [LoginController::class, 'index'])->name('login');
         Route::post('admin-login', [LoginController::class, 'authenticate'])->name('admin.login');
     });
-    
+
     Route::get('admin-logout', [LoginController::class, 'logout'])->name('admin.logout');
-
-
 
     Route::middleware(['auth:web'])->group(function () {
         Route::get('/dashboard', [DashboardController::class, 'dashboard'])->name('admin.dashboard');
+
+        Route::resource('products', ProductController::class);
     });
 });
