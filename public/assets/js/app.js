@@ -2047,20 +2047,20 @@ function chatBot() {
 	}
 }
 
-// top-tagbar current time
-setInterval(() => {
-	// date
-	var d = new Date();
-	var dateOptions = { weekday: 'short', month: 'short', day: 'numeric' };
-	var date = d.toLocaleDateString(undefined, dateOptions);
-	// time
-	var hours = d.getHours();
-	var ampm = hours >= 12 ? ' PM' : ' AM';
-	var hours = hours % 12;
-	var time = ("0" + hours).slice(-2) + ':' + ("0" + d.getMinutes()).slice(-2) + ampm;
+// top-tagbar current time    commented by jasim
+// setInterval(() => {
+// 	// date
+// 	var d = new Date();
+// 	var dateOptions = { weekday: 'short', month: 'short', day: 'numeric' };
+// 	var date = d.toLocaleDateString(undefined, dateOptions);
+// 	// time
+// 	var hours = d.getHours();
+// 	var ampm = hours >= 12 ? ' PM' : ' AM';
+// 	var hours = hours % 12;
+// 	var time = ("0" + hours).slice(-2) + ':' + ("0" + d.getMinutes()).slice(-2) + ampm;
 
-	document.getElementById("current-time").innerHTML = date + " | " + time;
-}, 1000);
+// 	document.getElementById("current-time").innerHTML = date + " | " + time;
+// }, 1000);
 
 
 // Scroll to Bottom

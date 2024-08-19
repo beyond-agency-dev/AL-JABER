@@ -1,18 +1,28 @@
 <?php
 
-namespace App\Http\Controllers\admin;
+namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+use App\Repositories\CategoryRepository;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
+use Throwable;
 
 class CategoryController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     */
+    protected $categoryRepo;
+
+    public function __construct(CategoryRepository $categoryRepo)
+    {
+        $this->categoryRepo = $categoryRepo;
+    }
+
+
     public function index()
     {
-        return view('admin.categories.index');
+        return view('admin.categories.index', [
+            'categories' => $this->categoryRepo->getAllCategories()
+        ]);
     }
 
     /**
@@ -28,7 +38,19 @@ class CategoryController extends Controller
      */
     public function store(Request $request)
     {
-        //
+
+        // dd($request->all());
+
+        DB::beginTransaction();
+        try {
+            $this->categoryRepo->store($request->all());
+        } catch (Throwable $th) {
+            DB::rollBack();
+            dd($th);
+            return back()->withErrors(['message' => $th->getMessage()]);
+        }
+        DB::commit();
+        return redirect()->route('categories.index')->with('success', 'Category created successfully.');
     }
 
     /**

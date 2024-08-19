@@ -249,7 +249,7 @@
                         <div class="mt-3">
                             <a href="shop-cart.html" class="btn btn-primary w-100 add-btn">More Information</a>
                         </div>
-                    </div>
+                    </div>    
                 </div>
             </div><!--end col-->
             <div class="col-xxl-3 col-lg-4 col-sm-6">

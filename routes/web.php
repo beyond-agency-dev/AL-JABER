@@ -38,6 +38,6 @@ Route::prefix('admin')->group(function () {
     Route::middleware(['auth:web'])->group(function () {
         Route::get('/dashboard', [DashboardController::class, 'dashboard'])->name('admin.dashboard');
         Route::resource('products', ProductController::class);
-        Route::resource('categories', CategoryController::class);
+        Route::resource('categories', CategoryController::class)->names('categories');
     });
 });
