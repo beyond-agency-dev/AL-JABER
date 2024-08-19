@@ -65,6 +65,31 @@
                 </li>
 
                 <li class="nav-item">
+                    <a class="nav-link menu-link" href="#categories" data-bs-toggle="collapse" role="button"
+                        aria-expanded="false" aria-controls="categories">
+                        <i class="bi bi-box"></i> <span data-key="t-custom-ui">Categories</span>
+                    </a>
+                    <div class="collapse menu-dropdown" id="categories">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <ul class="nav nav-sm flex-column">
+                                    <li class="nav-item">
+                                        <a href="{{ route('categories.create') }}" class="nav-link"><span
+                                                data-key="t-ribbons">Add
+                                                Categories</span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="{{ route('categories.index') }}" class="nav-link"><span
+                                                data-key="t-profile">List
+                                                Categories</span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="nav-item">
                     <a class="nav-link menu-link" href="#customUI" data-bs-toggle="collapse" role="button"
                         aria-expanded="false" aria-controls="customUI">
                         <i class="bi bi-tools"></i> <span data-key="t-custom-ui">Custom UI</span>

@@ -1,6 +1,7 @@
 <?php
 
-use App\Http\Controllers\Admin\Auth\LoginController;
+use App\Http\Controllers\admin\Auth\LoginController;
+use App\Http\Controllers\admin\CategoryController;
 use App\Http\Controllers\FrontendController;
 use Illuminate\Support\Facades\Route;
 
@@ -36,7 +37,7 @@ Route::prefix('admin')->group(function () {
 
     Route::middleware(['auth:web'])->group(function () {
         Route::get('/dashboard', [DashboardController::class, 'dashboard'])->name('admin.dashboard');
-
         Route::resource('products', ProductController::class);
+        Route::resource('categories', CategoryController::class);
     });
 });
