@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Admin\Auth\LoginController;
 use App\Http\Controllers\FrontendController;
 use Illuminate\Support\Facades\Route;
 
@@ -25,5 +26,22 @@ Route::get('/product-info', [FrontendController::class, 'info'])->name('product.
 Route::prefix('admin')->group(function () {
     Route::controller(DashboardController::class)->group(function () {
         Route::get('/', 'dashboard')->name('admin.dashboard');
+    });
+});
+
+
+Route::prefix('admin')->group(function () {
+
+    Route::middleware(['guest'])->group(function () {
+        Route::get('login', [LoginController::class, 'index'])->name('login');
+        Route::post('admin-login', [LoginController::class, 'authenticate'])->name('admin.login');
+    });
+    
+    Route::get('admin-logout', [LoginController::class, 'logout'])->name('admin.logout');
+
+
+
+    Route::middleware(['auth:web'])->group(function () {
+        Route::get('/dashboard', [DashboardController::class, 'dashboard'])->name('admin.dashboard');
     });
 });

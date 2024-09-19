@@ -19,7 +19,7 @@
 </section>
     <section class="section">
 
-        <div class="container-fluid" style="padding-left: 50px;padding-right:50px;">
+        <div class="container-fluid" style="padding-left: 100px;padding-right:50px;">
             <div class="row gx-2">
                 <div class="col-lg-5" style="margin-right: 30px;">
                     <div class="row">
